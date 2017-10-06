@@ -11,11 +11,15 @@ $('.table').append("<tr></tr>");
 }
 
 createGrid(16);
+
 function hover(){
 $('td').on('mouseenter', function() {
   $(this).css({'background-color': 'black'});
 });
 }
+
+hover();
+
 $('button').on('click', function() {
 	let popUp = prompt('How many squares?');
 	
