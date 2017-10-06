@@ -1,0 +1,43 @@
+body {
+background-color: #e50606;
+margin-bottom: 50px;
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  color: gold;
+  text-align: center;
+  font-family: 'Damion', cursive;
+  font-size: 40px;
+
+}
+.wrapper {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+button {
+	padding: 10px;
+	margin: 20px;
+	background-color: white;
+	border: 2px solid black;
+}
+
+.container {
+	align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.table {
+  height: 600px;
+  width: 600px;
+  background-color: white;
+  border-collapse: collapse;
+
+}
+
+td {
+	border: 1px solid black;
+}
